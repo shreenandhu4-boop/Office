@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "spring.hibernate-orm.database.generation",
+  "type": "java.lang.String",
+  "description": "A description for 'spring.hibernate-orm.database.generation'"
+}]}
