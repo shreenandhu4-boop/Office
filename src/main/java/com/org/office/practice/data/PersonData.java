@@ -19,12 +19,16 @@ public class PersonData {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "person_id")
 	private int personId;
+	
 	@Column(name = "Name")
 	private String name;
+	
 	@Column(name = "Gender")
 	private String gender;
+	
 	@Column(name = "DOB")
 	private Date dob;
+	
 	@Column(name = "Status")
 	private String status;
 	@Column(name = "Bloodgroup")
